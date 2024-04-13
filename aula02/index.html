@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Página JavaScript</title>
+</head>
+
+<body>
+
+    <h1>
+        Bom dia!
+    </h1>
+
+    
+
+    <script>
+
+        /*
+        neste comando iremos colocar um texto a tag h1. para isso estamos usando os seguintes comandos:
+        document: aqui estamos dizendo que neste documento deve ser feito algo.
+        neste caso estamos em buscar da tag html h1.
+        elementsByTagName: estamos pegando neste documento um elemento por nome de tag.
+        é importnte lembrar que a tag pode aparecer varias vezes e por isso devemos sempre
+        dizer qual das tags que tem o mesmo nome queremos pegar.
+        seguida pela posição da tag.
+        vamos lembrar que em informática sempre começamos pela posição 0.
+        por isso o nosso comando  ficou:
+        getElementsByTagName("h1")[0]. entre os couchetes está a posição da tag.
+        innerHTML: este comado define o que será inserido na tag h1.
+        */
+
+        document.getElementsByTagName("h1")[0].innerHTML = "Olá, seja bem vindo!"
+    </script>
+
+</body>
+
+</html>
