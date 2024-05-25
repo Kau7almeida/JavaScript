@@ -1,0 +1,39 @@
+#fotos {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#fotos img {
+    width: 28%;
+    margin: 10px;
+}
+
+#shadow {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color    : rgba(0,0,0, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shadow img {
+    width: 25%;
+    
+}
+
+#close {
+    color: #fff;
+    font-size: 20pt;
+    padding: 10px;
+    background-color: red;
+    text-decoration: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
