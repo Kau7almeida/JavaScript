@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.caixa .foto {
+    width: 100%;
+}
