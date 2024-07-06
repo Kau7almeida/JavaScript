@@ -1,0 +1,26 @@
+#um{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#tres{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#tres:hover{
+    transform: scale(1.2);
+}
+
+#quatro{
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    border-radius: 50%;
+    position: absolute;
+    top: 410px;
+    left: 0;
+
+}
